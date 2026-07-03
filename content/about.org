@@ -1,0 +1,5 @@
+#+title: About
+#+date: [2026-07-02 Thu]
+#+draft: false
+
+Hi, I'm Ada. This is my personal blog where I write about computer things and others personal things.

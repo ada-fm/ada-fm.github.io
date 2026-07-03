@@ -1,0 +1,11 @@
+#+title: Olá Mundo
+#+date: [2026-07-02 Thu]
+#+draft: false
+#+tags[]: intro
+#+categories[]: Personal
+#+summary: Hello, world.
+
+Olá Mundo, Hola Mundo, Hello World, Bonjour le monde
+
+Boas pessoal prazer, sou Ada e estou começando aqui meu blog, o qual tenho o propósito de escrever sobre cybersegurança, computadores e meus hobbies;
+Sou uma cientista da computação que no momento está fazendo mestrado e eventualmente esbarro com algumas coisas que acharia legal de escrever, então vamos lá!

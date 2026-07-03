@@ -1,4 +1,69 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://ada-fm.github.io/"
+locale = "en-us"
+title = "ada-fm"
 theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  disableSpecial1stPost = true
+  hideMeta = false
+  hideSummary = false
+  MainSections = ["posts"]
+
+  [params.homeInfoParams]
+    Title = "Hi there"
+    Content = "Welcome to my blog. This is where I share notes on things I learn and build. Replace this line with a short bio about yourself."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ada-fm"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 40

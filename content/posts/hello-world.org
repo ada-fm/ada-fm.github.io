@@ -1,0 +1,66 @@
+#+title: Hello World
+#+date: [2026-07-02 Thu]
+#+draft: true
+#+tags[]: meta intro
+#+categories[]: General
+#+summary: A short first post to kick things off and show what Org looks like in this blog.
+
+Welcome to the blog. This is a sample post so you can see how everything renders
+before writing your own. Delete it (or edit it) whenever you're ready.
+
+* Why this blog exists
+
+I wanted a quiet place to publish notes, walkthroughs, and small projects.
+A static site keeps it fast, free, and easy to maintain.
+
+* A quick Org tour
+
+You can write *bold*, /italic/, and =inline code=. Links work too:
+[[https://gohugo.io/documentation/][the Hugo docs]].
+
+#+begin_quote
+Blockquotes are handy for callouts and quotes from other sources.
+#+end_quote
+
+** Lists
+
+- Unordered item one
+- Unordered item two
+  - A nested item
+- Unordered item three
+
+1. Ordered item one
+2. Ordered item two
+3. Ordered item three
+
+** Code blocks
+
+#+begin_src python
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+
+if __name__ == "__main__":
+    print(greet("world"))
+#+end_src
+
+#+begin_src bash
+# Build the site locally
+hugo server -D
+#+end_src
+
+** A task list
+
+- [X] Set up Hugo with the PaperMod theme
+- [X] Configure the site
+- [ ] Write my first real post
+
+* What's next
+
+Edit this file at =content/posts/hello-world.org=, or create a new post with:
+
+#+begin_src bash
+hugo new posts/my-first-real-post.org
+#+end_src
+
+That's it for now. Thanks for reading.
