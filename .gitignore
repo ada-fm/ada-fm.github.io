@@ -1,0 +1,14 @@
+# Hugo build output & generated resources
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+/.hugo_build.lock
+
+# Node (only kicks in if you add npm-based tooling later)
+node_modules/
+
+# Emacs
+*~
+\#*\#
+.\#*
